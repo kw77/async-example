@@ -1,0 +1,19 @@
+{
+  "name": "NodeJS-ASYNC-Example",
+  "version": "1.0.0",
+  "description": "Example NodeJS ASYNC application",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "eslint .",
+    "test": "eslint .",
+    "start": "node index.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "author": "KW",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
